@@ -1,0 +1,155 @@
+*{
+  font-size: 100px;
+  margin:0;
+  padding:0; /*establecer limites de pantalla*/ 
+  
+}
+#fondo{
+  width:3000px;
+  height:1680px;
+  background-repeat: no-repeat;
+  background-image: url("./fondo.png");
+}
+
+#botones{
+  width:450px;
+	height:1680px;
+  background-color: #a84212;
+  display: inline-block;
+}
+
+#btn-up{  
+  border: none;
+  width:300px;
+	height:600px;
+  margin: 60px;
+  margin-top: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e47658;
+  background-image: url("./up.png");
+}
+
+#btn-down{  
+  border: none;
+  width:300px;
+	height:600px;
+  margin: 60px;
+  margin-top: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./down.png");
+  background-color: #e47658;
+}
+
+#person{
+  width: 120px;
+  height: 120px;
+  transform: rotate(90deg);
+  background-image: url("./personaje.png");
+  position: absolute;
+  display: inline-block;
+  /* animation:mymove 5s infinite;  */
+}
+
+#tuberia{
+  width: 60px;
+  height: 500px;
+  margin-left: 1px;
+  background-color: green;
+  position: absolute;
+  display: inline;
+}
+#tuberia_abajo{
+  top: 1280px;
+  width: 60px;
+  height: 400px;
+  background-color: green;
+  position: absolute;
+  display: inline;
+}
+/*
+@keyframes mymove {
+  from {top: -170px;}
+  to {top: 56px;}
+}
+*/
+
+#colisiones, #score,#puntuacion,#vidas{
+  display: inline;
+  margin-right: 10px;
+}
+
+#vida1{
+  position: absolute;
+  top: 1530px;
+  margin-left: 300px;
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-image: url("./vidas.png");
+}
+
+#vida2{
+  position: absolute;
+  top: 1530px;
+  float: left;
+  margin-left: 150px;
+  width: 150px;
+  height: 150px;
+  background-image: url("./vidas.png");
+}
+
+#vida3{
+  position: absolute;
+  top: 1530px;
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-image: url("./vidas.png");
+}
+
+#modal{
+  position: absolute;
+  width: 1100px;
+  height: 800px;
+  background-color: yellow;
+  align-items: center;
+  top:0; 
+  margin-left: 1200px;
+  margin-top: 300px;
+  
+}
+
+#titulo{
+  font-size: 120px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#puntosmodal{
+  font-size: 75px;
+  text-align: center;
+  align-items: center;
+}
+
+#menumodal{
+  position: absolute;
+  bottom: 0;
+}
+
+#buttonmodal{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  width: 1040px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100px;
+  margin: 30px 30px 30px 30px;
+  cursor: pointer;
+}
+
+

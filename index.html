@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Carousel</title>
+
+<link rel="stylesheet" href="./micss.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="./js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="./particles.min.js"></script>
+<script src="./app.js"></script>
+
+</head>
+
+<body onload="myFunction()">
+  <div id="fondo" >
+    <div id="botones">
+      <button id="btn-up" onclick='setInterval("correr()",60)'>
+         
+      </button>
+      <button id="btn-down">
+         
+      </button>
+    </div>
+
+    <div id="person" data-orientacion="parado"> </div>
+    
+    
+    <div id="tuberia">
+    </div>
+    <div id="tuberia_abajo">
+    </div>
+
+  </div>
+    
+    <div id="vidas">
+      <div id="vida3"> </div>
+      <div id="vida2"></div>
+      <div id="vida1"></div>
+    </div>
+    <!-- 
+    <div id="colisiones">
+      <label > Colisiones: </label>
+    </div>
+    
+    <div id="puntuacion">
+      <label > Puntos: </label>
+    </div>
+    
+    <div id="score">
+      <label > puntos</label>
+    </div> -->
+    
+  <div id="modal">
+    <div id="titulo">
+      GAME OVER
+    </div>
+
+    <div id="puntosmodal">
+      <label></label>
+    </div>
+
+    <div id="menumodal">
+      <button id="buttonmodal">
+      Tornar a jugar
+      </button>
+    </div>
+  </div>
+
+  
+  
+</body>
+
+
+
+</html>                                                        
